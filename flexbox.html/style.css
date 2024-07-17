@@ -1,9 +1,16 @@
 
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+
+}
 .container{
     display: flex;
       /*flex-direction: row;*/
     /*flex-direction: column;*/
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
 }
 
 .content{
