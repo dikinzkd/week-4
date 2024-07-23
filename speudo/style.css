@@ -1,0 +1,48 @@
+/*starting-section*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+}
+.navigation a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+}
+ul li {
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;   
+    color: white;
+    padding: 0px 5px;
+}
+
+/*form-section*/
+.form{
+    margin: 25px;
+}
+.form input{
+    border: solid 2px gray;
+    height: 35px;
+    border-radius: 10px;
+}
+.form input:focus{
+    border: none;
+    background-color: rgb(165, 161, 161);
+    /*border: solid 2px gray;*/
+}
+.navigation ul li:nth-child(even){
+    background-color: rgb(26, 25, 25);
+}
+#Pseudo-element p::before{
+    content: "Note: ";
+    font-weight: bold;
+    text-transform: uppercase;
+}
